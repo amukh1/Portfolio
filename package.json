@@ -1,6 +1,6 @@
 {
-  "name": "react-typescript",
-  "version": "1.0.0",
+  "name": "amukh1-portfolio",
+  "version": "1.0.1",
   "type": "module",
   "description": "React TypeScript on Replit, using Vite bundler",
   "scripts": {

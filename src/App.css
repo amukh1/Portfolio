@@ -1,11 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 
+/* body {
+  background-color: hsla(238, 100%, 44%, 0.78);
+} */
+
 main {
+  margin: 0px;
+  margin-top: 10%;
   text-align: center;
   vertical-align: center;
 /*   line-height: 100vh */
   font-size: 2rem;
   font-family: 'Oswald', sans-serif;
+  /* color: white; */
+  background-color: white;
+  font-size: 6rem;
 }
 
 a,
@@ -17,9 +26,78 @@ a,
   border-radius: 0px;
 }
 
-@media (hover: hover) {
   a:hover {
     background-color: hsla(238, 100%, 44%, 0.3);
-    border-radius: 5px
+    border-radius: 5px;
+    font-size: 7rem;
   }
+
+  .hello {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hello-h {
+    margin-right: 10%;
+    text-align: center;
+  }
+  
+  .Resources {
+    /* background-color: rgb(172, 172, 172); */
+    border: 5px solid hsla(238, 100%, 44%, 0.78);
+    padding: 60px;
+    border-radius: 25px;
+    width: 25%;
+  }
+  
+  img {
+    transition: all 0.5s ease;
+    width: 80px;
+    /* height: 50px; */
+    height: auto;
+    padding: 5px;
+    border-radius: 25%;
+  }
+  
+  img:hover {
+    width: 90px;
+    height: auto;
+    padding: 10px;
+  }
+
+  .contact {
+    margin-top: 60px;
+    background-color: hsla(238, 100%, 44%, 0.78);
+  }
+
+@media (max-width: 1600px) {
+  main {
+    font-size: 3rem;
+    /* background-color: red; */
+  }
+
+  a:hover {
+    background-color: hsla(238, 100%, 44%, 0.3);
+    border-radius: 5px;
+    font-size: 4rem;
+  }
+
+  img {
+    transition: all 0.5s ease;
+    width: 40px;
+    /* height: 50px; */
+    height: auto;
+    padding: 5px;
+    border-radius: 25%;
+  }
+  
+  img:hover {
+    width: 60px;
+    height: auto;
+    padding: 10px;
+  }
+
 }
+
