@@ -4,6 +4,7 @@ body {
   /* background-color: hsla(238, 100%, 44%, 0.78); */
   padding: 0px;
   margin: 0px;
+  overflow-x: hidden;
 }
 
 main {
@@ -86,11 +87,37 @@ a,
   }
 
   .contact {
-    margin-top: 60px;
+    /* margin-top: 60px; */
     color: white;
+    width: 100%;
     background-color: hsla(238, 100%, 44%, 0.78);
     /* font-size: 3rem; */
     padding: 10px;
+  }
+
+  svg {
+    margin: 0px;
+  }
+
+  .contact-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-image: url(../wave.svg); */
+    /* width: 100%; */
+     /* background-size: cover; */
+    /* height: 300px;  */
+    /* height: 100px; */
+    /* margin: 0px; */
+  }
+
+  .contact-bottom {
+    /* background-image: url(../wave2.svg); */
+    /* width: 100%; */
+    /* background-size: cover;
+    height: 300px; */
+    margin: 0px;
   }
 
  
@@ -106,11 +133,70 @@ a,
     margin: 0px
   }
 
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+     border-radius: 15px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+  .scroll {
+    transition: all 0.5s ease;
+    width: 100%;
+
+    text-align: center;
+    font-size: 3rem;
+    /* color: hsla(238, 100%, 44%, 0.78); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sb {
+    position: fixed;
+    bottom: 20px;
+    background-color: hsla(238, 100%, 44%, 0.78);
+    border-radius: 5px;
+    width: fit-content;
+    transition: all 0.5s ease;
+    padding: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .sb:hover {
+    bottom: 30px;
+  }
+  
+
 @media (max-width: 1600px) {
   main {
     font-size: 3rem;
     /* background-color: red; */
   }
+
+  .contact-top {
+    margin-top: 200px;
+  }
+  
 
   a:hover {
     background-color: hsla(238, 100%, 44%, 0.3);
@@ -146,3 +232,12 @@ a,
 
 }
 
+.description {
+  font-size: 4rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.two {
+  margin-top: 10%;
+}

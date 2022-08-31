@@ -1,6 +1,6 @@
 {
   "name": "amukh1-portfolio",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "description": "React TypeScript on Replit, using Vite bundler",
   "homepage": "https://amukh1.github.io",
