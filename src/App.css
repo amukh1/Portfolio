@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 
-/* body {
-  background-color: hsla(238, 100%, 44%, 0.78);
-} */
+body {
+  /* background-color: hsla(238, 100%, 44%, 0.78); */
+  padding: 0px;
+  margin: 0px;
+}
 
 main {
   margin: 0px;
@@ -30,6 +32,22 @@ a,
     background-color: hsla(238, 100%, 44%, 0.3);
     border-radius: 5px;
     font-size: 7rem;
+  }
+
+  .contact-link {
+  text-decoration: none;
+  color: hsl(0, 0%, 98%);
+/*   hsla(238, 100%, 44%, 0.78) */
+  transition: 0.4s;
+  border-radius: 0px;
+  margin: 30px;
+}
+
+  .contact-link:hover {
+    background-color: hsla(0, 0%, 100%, 0.508);
+    border-radius: 5px;
+    font-size: 7rem;
+    margin: 50px;
   }
 
   .hello {
@@ -69,7 +87,23 @@ a,
 
   .contact {
     margin-top: 60px;
+    color: white;
     background-color: hsla(238, 100%, 44%, 0.78);
+    /* font-size: 3rem; */
+    padding: 10px;
+  }
+
+ 
+  .contact-c {
+    font-size: 8rem;
+  }
+
+  .projects-h {
+    font-size: 8rem;
+  }
+
+  .projects {
+    margin: 0px
   }
 
 @media (max-width: 1600px) {
@@ -97,6 +131,17 @@ a,
     width: 60px;
     height: auto;
     padding: 10px;
+  }
+
+  .contact-link:hover {
+    background-color: hsla(0, 0%, 100%, 0.508);
+    border-radius: 5px;
+    font-size: 4rem;
+    margin: 50px;
+  }
+
+  .contact-c {
+    font-size: 4rem;
   }
 
 }
